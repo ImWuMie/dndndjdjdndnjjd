@@ -1,0 +1,30 @@
+{
+  "minVersion": "0.8.5",
+  "required": true,
+  "mixinPriority": 1,
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "dev.undefinedteam.gensh1n.plugins.MixinPlugin",
+  "package": "icyllis.modernui.mc.mixin",
+  "client": [
+    "AccessGameRenderer",
+    "AccessNativeImage",
+    "AccessGameOptions",
+    "AccessPostEffectProcessor",
+    "MixinFormatting",
+    "MixinChatScreen",
+    "MixinTelemetryManager",
+    "MixinHandledScreen",
+    "MixinTextFieldWidget",
+    "MixinDrawContext",
+    "MixinAbstractInventoryScreen",
+    "MixinKeyboard",
+    "MixinMinecraft",
+    "MixinMouse",
+    "MixinRenderSystem",
+    "MixinScreen",
+    "MixinEntryListWidget",
+    "MixinTextHandler",
+    "MixinSelectionManager",
+    "MixinWindow"
+  ]
+}

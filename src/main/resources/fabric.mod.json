@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "name": "Genshin",
+  "id": "genshin",
+  "version": "${version}",
+  "description": "idkidk.",
+  "authors": [
+    "wumie",
+    "niuren",
+    "fin"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ImWuMie"
+  },
+  "license": "IDK-0.0",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.undefinedteam.gensh1n.Genshin"
+    ]
+  },
+  "mixins": [
+    "_gensh1n.mixins.json",
+    "mixins.ui.json",
+    "mixins.ui.text.json"
+  ],
+  "accessWidener": "_gensh1n_.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.11.0+kotlin.2.0.0",
+    "minecraft": "1.21",
+    "java": ">=21"
+  }
+}

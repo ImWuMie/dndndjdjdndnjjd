@@ -1,0 +1,35 @@
+{
+  "required": true,
+  "package": "dev.undefinedteam.gensh1n.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "plugin": "dev.undefinedteam.gensh1n.plugins.MixinPlugin",
+  "client": [
+    "ChatHudAccessor",
+    "ClientPlayerEntityMixin",
+    "IBufferRenderer",
+    "ICreativeInventoryScreen",
+    "IKeyBinding",
+    "MixinChatHud",
+    "MixinChatHudLine",
+    "MixinChatHudLineVisible",
+    "MixinChatInputSuggestor",
+    "MixinClientPlayerInteractionManager",
+    "MixinClientPlayNetworkHandler",
+    "MixinGameRenderer",
+    "MixinInGameHud",
+    "MixinKeyboard",
+    "MixinMinecraft",
+    "MixinMouse",
+    "MixinScreen",
+    "MixinSpectatorHud",
+    "MixinTitleScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "IHorseScreenHandler",
+    "MixinClientPlayerEntity",
+    "Vec3dMixin"
+  ]
+}
